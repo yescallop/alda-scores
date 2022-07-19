@@ -1,0 +1,13 @@
+# Embedded in https://commons.wikimedia.org/wiki/File:The_International_-_Marching_Song_of_the_Revolutionary_Proletariat,_1911.pdf
+(tempo! 90)
+midi-choir-aahs:
+  r4. g8 > c4. < b8 > d c < g e a2~
+  f4 r8 a > d4. c8 < b a g f e2~4 r8 g
+  > c4. < b8 > d c < g e a2~ f4 > d8 c < b4. > d8
+  f4. < b8 > c2~4 r8 e d < b2 a8 b > c < a b2
+  g4 f+8 g a4~8 a8 > d4. c8 < b2~4 r8 > d d4. < b8
+  g g f+ g > e2~ c16 r < a8 b > c < b4 > d c < a
+  g2~4 r8 > e8. d16 c2 < g4. a8 a2~ f4 > d8. c16 < b2 a4. g8 g2~8
+  r8 g4 > e2 d4 < g > c2~ < b4. b8 a4. g+8 a4 > d d2~8 r8 e8. d16
+  c2 < g4. a8 a2~ f4 > d8. c16 < b2 a4. g8 > e2~8 r8 e4 g2
+  f4 e d8~ c+~ d~ e f4. f8 e4. e8 d4. c8 c2~4 r4

@@ -1,0 +1,45 @@
+# https://jerryengelbach.wixsite.com/internationale/sheet-music
+(key-sig! '(a major))
+(tempo! 90)
+midi-choir-aahs:
+  e8 a4. g8 b a e c f2 d4. f8 b4. a8 g f e d
+  c2. r8 e a4. g8 b a e c f2 d4. a16 a g4 g8 b > d4 < g a2. > c8 < b
+  g4. g8 f g a f g2 e4. e16 e f4 f8 f b4 a g2. r8 b
+  b4. g8 e e d+ e > c2 < e8 f g a g4 b a f e2 > c4. < b8
+  a2 e4 f f2 d4 b8. a16 g4 g f e e2. e4
+  o5 c4. c8 < b4 e a2 g4. g8 f4. e+8 f4 b b2 > c4. < b8
+  a2 e_4 f f2 d4 b8. a16 g4 g f4. e8 > c2. c4
+  e4. e8 d4 c < b > c d4. d8 c4. c8 < b4. a8 a2.
+
+piano:
+  (quant 100)
+  V1: e8 a4./c2 g8 b/e4 a8 e/<a4 > c8 f2/d4/<a a+/>c d4./<a_2 > f8 b4./d2 a8 g/d4 f8 e d
+  V2: r8 o3 e1/<a4 g f e > d c < b a e2/>g e/<g
+
+  V1: c4/<a a/>d/f e/d/<a b/>d/e a4./c2 g8 b/e4 a8 e/<a4 > c8 f2/d4/<a a+/>c d4./<a_2 > a16 a
+      d2/g4 b d2/>d4 < g c/e/a2. d4/<b a2/>c/r4 > c8 < b
+  V2: o2 a4/>e < b e g > e1/<a4 g f e > d c < b a g2/>e < e/>f4 g e1/<a2 < a
+
+  V1: g4./e2/<b > g8 f/e4 g8 a/d+4 f8 g2/e4/<b a/>d+ e4./<g2 > e8 f4./e2 f8 b4/d+2 a4
+      g2/e/<b > b4./e4 d+/r8 b
+  V2: o2 e4 g b/>a2 o1 b4 > e f g2 b/>a1 o1 b2 o3 e4 d+ c/a2 < b4
+  
+  V1: b4./e4/<b b/>e/r8 g e/<b2/g > e8 d+ e > c2/<a4/e d_/g c2/e/a8 f g a
+      g4/e2/<b > b4 a/e f/d+ e2/<b4/g b/>d_ d2/f/>c4. < b8
+  V2: o2 e4/>g d+ d_2 c4 < b a2 g b/>a e4 < b e2/b/>f4 g
+
+  V1: a4./e4/c d/<b/r8 > e8 e4/c2/<a > f4 f2/d4/<a a+/>c d/<a_ > d/b8. a16
+      d2/g4 g f/<a g/>e e2./c2/<a a4 g/>e
+  V2: o3 a4/e/<a b > c2 d4 c < b a/>f e2/<g e/>d e/<a4 g f/>d2 < e4
+
+  V1: c2/a/>c4. c8 < b4/g/d2 e4 a2/c/<a g/>c/g4. g8 f4./d2/<a > e+8 f4/d+2/<a > b4
+      b2/a/d_ d/f/>c4. < b8
+  V2: o2 a2/>e e/<g f/>e c/<f_ d/a b/d+ e/>a g/<e
+
+  V1: a4./e_4/c < b/>d/r8 e e4/c2/<a > f4 f2/d4/<a a+/>c d/<a_ > d/b8. a16
+      d2/g4 g f/<a g/>e c2./a/>c c4/<g_/c
+  V2: o2 a4 b > c2 d4 c < b a/>f e2/<g e/>d a/e1/<a2 g_/>g_
+
+  V1: f2/a+/>e4. e8 d4/<a_/f/d e/f/a+/>c < b/f/d e/f/a+/>c d4./<a_4/f/d d/f_/a/r8 > d
+      c4./<a2/e/c > c8 < b4./e2/d a8 a2./e/c
+  V2: o3 f2/<f b4 > c d c < b f_ > e < e e2/>f+4 g a2./e/<a < a4
