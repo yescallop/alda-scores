@@ -12,7 +12,6 @@ midi-choir-aahs:
   e4. e8 d4 c < b > c d4. d8 c4. c8 < b4. a8 a2.
 
 piano:
-  (quant 100)
   V1: e8 a4./c2 g8 b/e4 a8 e/<a4 > c8 f2/d4/<a a+/>c d4./<a_2 > f8 b4./d2 a8 g/d4 f8 e d
   V2: r8 o3 e1/<a4 g f e > d c < b a e2/>g e/<g
 

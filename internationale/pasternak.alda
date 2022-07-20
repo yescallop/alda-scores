@@ -1,0 +1,53 @@
+# https://commons.wikimedia.org/wiki/File:The_International_-_Marching_Song_of_the_Revolutionary_Proletariat,_1911.pdf
+(key-sig! '(b flat major))
+(tempo! 90)
+midi-choir-aahs:
+  r4 r2*7 r4 r8 f b4. a8
+  > c8 < b f d g2 e4 r8 g > c4. < b8 a g f8. e16 d2~8 r8 f4 b4. a8 > c < b f8. d16
+  g2 e4 > c8 < b a4. > c8 e4. < a8 b2~8 r8 > d c < a4./a2 a8 g a b g a2
+  f4 e_8 f8 g4 g > c4. < b8 a2~8 r8 r > c8 c4. < a8 f f e_ f > d2 <
+  b8 r16 g a8 b a4 > c < b g f2~8 r8 > d8. c16 < b2 f4. g8 g2
+  e4 > c8. < b16 a2 g4 g- f2~8 r8 f4 > d4. d8 c4 < g b4. b8 a4 r8 a
+  g4. f+8 g4. > c8 c2~8 r8 d8. c16 < b2 f4. g8 g2 e8 r > c8. < b16 a2 g4. f8
+  > d2~8 r8 d4 f4. f8 e4 d c8 < b_ > c d e4 e d4. d8 c4. < b8 b2~8 r8
+
+piano:
+  V1: f8./>d c16/<e d2/b f/d/<b b/>g e4/g/>e d8/<g/d c/g/>c d4./<f2/d > d8
+      c4./<a/f/e d8/f/b d2~8/f/b r8 r f | b4./f2/d/<b4. a8/>a
+  V2: r4 r o1 b8./>b c16/>c d4/<d b/<b > e/>e d/<d c/>c d8/<d e/>e f4/<f < f8~ > f~
+      < f~ > f~ < f r b4/>b f < b r b2/>b
+
+  V1: d4/f/>c8~ < b f/<b4 > d8 g2~4/<g/b4/>e f/<b_ > c/e r8 g c2/g/>c4. < b8 c/e-/a g/e/<b a4/>c/f8. e16
+      d2~8/<b r8 > f4 | b4./f2/d/<b4. a8/>a | d4/f/>c8~ < b f8./<b4 > d16
+  V2: o2 d4/>d d/f e~/<e~ d~/>d~ c/<c r e_2/>e_ f4/<f f/<f
+      b/>b/b2~8 f8 d < b r >> f4 < b2/<b > d4/>d d/f
+
+  V1: g2~4/<g/b4/>e f/<b_ > c/e e8/>c < g/b c2/e/a4. > c8 e4./<a2/e a8 d2~8/b
+      r8 d/>d c/<c a2/f/c/<a > c/e_8~/g~ f~/a~ g~/b~ e/g c2/f/a
+  V2: o2 e4~/>e~ d~/<d~ c/>c r f2/<f f4/<f > f/>f < b8/<b r16 b/>b f8 d
+      b8/<b r r4 > f8~ a~ > c~ f c2/b8~ a~ g~ b a/f c~ < a~ > c~
+
+  V1: f4/c/<a g8/>c/e_ f/c/<a > c4/e_/g e/g c4./g/>c < c8/g/b c2~8/f/a r8 r c/>c
+      c4./<a/f/c a8/f/c/<a a/>c/f c/f c/e_ c/f f4/d2~8/>d2~ c4~/<f+~
+  V2: o2 f8~ a~ > c~ f c~ e_~ g~ > c~ < e_~ c~ d~ e f~ c~ < a~ > c~ < f r r4
+      f2/<f a/>a/r8 > f e_ f < b4~/<b~ a~/>a~
+
+  V1: g8/b r16 d/g d8/f+/a d/g/b f2/a4 a/>c < d/b e_/g c2~8/f r8
+      f8./>d c16/<e d2/b f4./<b/f g8/b/>g g2/<b/g >
+  V2: o1 g8/>g r16 > b a8 g c2/a4 > c < c2/g4 b f8./a/f2~8/a f16 c8 < a f r8
+      r4 r b/<b > d/>d < b/<b > e/>e d/<d
+
+  V1: e4/c/<g > e8./>c < g16/b f2/a g4/e/<b a/>e/g- f2~8/<b/f r8 > f4
+      d4./f/>d d8/<f/d c4/f/>c < c/g c4./g/b c8/g/b c4/f/a r8 a
+  V2: o2 c4/>c r f/<f f/<f > f2/>f d4/<d f8./>f d16/<d b8/<b r >> f4
+      < b/<b > b/>f/b a/f/<a > c/e_ e_4./g c8/e f/a c < a f
+
+  V1: c2/g4. f+8 c4./g c8/>c c2~8/<a/f/c r8 f8./>d c16/<e d2/b
+      f4./<b/f g8/b/>g g2/<b/g g4/>c/e c/g/>c8. < b16 c2/e/a g4./e/<b a8/>e/f
+  V2: o3 c2/<e_4 d+ e_/>c2 < c4 f8./>f f16 c8 < a f r > f4 r < b/<b
+      > d/>d < b/<b > e/>e d/<d c/>c e/<e f/>f c < f > f
+
+  V1: d2~8/f/>d r8 d4/<d f4./b/>f f8/<b/f e4/b_/>e d/<b/g/d c8/g/>c < d/g/b c/g/>c d/<b/g/d
+      e4/g/>c/e e/<b/g-/e d2/f/b/>d4. d8 c4./<a2/f/e b8 d2~8/f/b r8
+  V2: o1 b4/>b d8 f a r r4 d2/>d g4/<g f/>f e8/<e f/>f e/<e d/>d
+      c4/<c c/>c f/<f f8~ > f < f4./<f r8 b8./>b b16 f8 d b/<b r8
