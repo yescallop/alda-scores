@@ -1,0 +1,11 @@
+(key-sig! '(c minor))
+(tempo! 85)
+midi-choir-aahs:
+  # ずっと　ずっと　探している
+  c4 g8 r f4 b8 r g > e d < b g r
+  # あなたの欠片を探し続ける
+  > c < b g4. f8 e f e f g > e d < f e b g r
+  # やっと　やっと　尽き果てる
+  c4 g8 r f4 b8 r g > g < b g > c r
+  # 残る温もりと消えてゆく
+  c e f4 f8 g f e16 e d8 e c4 g c2.
